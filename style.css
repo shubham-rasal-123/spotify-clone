@@ -36,6 +36,7 @@ nav ul li {
   font-weight: bolder;
   font-size: 1.3rem;
 }
+<<<<<<< HEAD
 .home {
   cursor: pointer;
 }
@@ -49,6 +50,8 @@ nav ul li {
 .old {
   cursor: pointer;
 }
+=======
+>>>>>>> 6677a35 (added style css file)
 
 .container {
   min-height: 72vh;
@@ -60,7 +63,11 @@ nav ul li {
   width: 70%;
   border-radius: 12px;
   padding: 34px;
+<<<<<<< HEAD
   background-image: url("/images/bg.jpg");
+=======
+  background-image: url("bg.jpg");
+>>>>>>> 6677a35 (added style css file)
 }
 
 .bottom {
