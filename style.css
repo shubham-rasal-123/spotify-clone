@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 body {
   background-color: antiquewhite;
 }
@@ -24,11 +23,10 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0% 12px;
+  padding: 0 12px;
 }
-
 .brand img {
-  width: 45px;
+  width: 44px;
   padding: 0 8px;
 }
 
@@ -38,8 +36,22 @@ nav ul li {
   font-weight: bolder;
   font-size: 1.3rem;
 }
+.home {
+  cursor: pointer;
+}
+.about {
+  cursor: pointer;
+}
+.new {
+  cursor: pointer;
+}
+
+.old {
+  cursor: pointer;
+}
+
 .container {
-  min-height: 64vh;
+  min-height: 72vh;
   background-color: black;
   color: white;
   font-family: "Varela Round", sans-serif;
@@ -48,15 +60,15 @@ nav ul li {
   width: 70%;
   border-radius: 12px;
   padding: 34px;
-  background-image: url("bg.jpg");
+  background-image: url("/images/bg.jpg");
 }
 
 .bottom {
   position: sticky;
+  bottom: 0;
   height: 130px;
   background-color: black;
   color: white;
-  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,9 +76,8 @@ nav ul li {
 }
 
 .icons {
-  margin-top: 15px;
+  margin-top: 14px;
 }
-
 .icons i {
   cursor: pointer;
 }
@@ -105,12 +116,20 @@ nav ul li {
 .timestamp i {
   cursor: pointer;
 }
+
 .songInfo {
   position: absolute;
   left: 10vw;
   font-family: "Varela Round", sans-serif;
 }
+
 .songInfo img {
   opacity: 0;
   transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: red;
+  }
 }
