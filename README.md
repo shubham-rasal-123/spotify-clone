@@ -1,6 +1,6 @@
 # Spotify Clone
 
-![alt text](/images/Screenshot%20from%202024-11-10%2015-59-39.png)
+![alt text](Screenshot%20from%202024-11-10%2015-59-39.png)
 
 ### Description
 
