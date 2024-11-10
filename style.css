@@ -37,6 +37,9 @@ nav ul li {
   font-size: 1.3rem;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 93c5017 (initial commit)
 .home {
   cursor: pointer;
 }
@@ -50,8 +53,11 @@ nav ul li {
 .old {
   cursor: pointer;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 6677a35 (added style css file)
+=======
+>>>>>>> 93c5017 (initial commit)
 
 .container {
   min-height: 72vh;
@@ -64,10 +70,14 @@ nav ul li {
   border-radius: 12px;
   padding: 34px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-image: url("/images/bg.jpg");
 =======
   background-image: url("bg.jpg");
 >>>>>>> 6677a35 (added style css file)
+=======
+  background-image: url("/images/bg.jpg");
+>>>>>>> 93c5017 (initial commit)
 }
 
 .bottom {
